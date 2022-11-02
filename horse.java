@@ -4,7 +4,7 @@
 public class horse {
     String name;// current name of the horse
     int birthYear;//year the horse was born
-    String[] names; //array of old names of the horse
+    String[] names = new String[10]; //array of old names of the horse
     int numberofNames=0; //how many old names are there.
     public horse(String horseName, int year){ //horse constructor needs its name and birth year.
         name=horseName; //assigns the name of the horse to the horseName which was sent in the construtor.
