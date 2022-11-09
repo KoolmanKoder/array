@@ -1,3 +1,6 @@
+// For: Week #8
+//By: Michael Koomler
+// Date: 11/9/2022
 public class CookieJar {
     static cookies cookie1;
     static cookies cookie2;
