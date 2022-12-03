@@ -8,7 +8,7 @@ public class overloading {
     
     public static void main(String[] args) {}
      
-    int x  void add (5,0);
+    
    
     static int add (int a, int b){
     System.out.print("this is jerry. he is:");

@@ -1,3 +1,6 @@
+import java.util.*;
+
+
 // For: Week #8
 //By: Michael Koomler
 // Date: 11/9/2022
@@ -21,5 +24,14 @@ public class CookieJar {
         System.out.println(cookie1);
         System.out.println(cookie2);
         System.out.println(cookie3);
-}
+final ArrayList listOfCookies = new ArrayList<>(); 
+ listOfCookies.add(cookie1);
+ listOfCookies.add(cookie2);
+ listOfCookies.add(cookie3);
+System.out.println(listOfCookies);
+Collections.sort(listOfCookies);
+System.out.println(listOfCookies);
+
+
+    }
 }
