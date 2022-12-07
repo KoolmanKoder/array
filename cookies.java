@@ -2,7 +2,6 @@
 //By: Michael Koomler
 // Date: 11/9/2022
 
-public class cookies  implements Comparable{
     String typeString;
     int size;
     String tasteString = "unknown ";
@@ -24,7 +23,7 @@ public String toString(){
 }
 @Override 
 public int compareTo(cookies nextCookie){
-    return size - nextCookie.size;
+    return tasteString.charAt(0) - nextCookie.tasteString.charAt(0);
 }
 }
 
