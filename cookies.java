@@ -2,6 +2,7 @@
 //By: Michael Koomler
 // Date: 11/9/2022
 
+public class cookies  implements Comparable<cookies>{
     String typeString;
     int size;
     String tasteString = "unknown ";
