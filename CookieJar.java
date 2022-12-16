@@ -5,7 +5,7 @@ import java.util.*;
 //By: Michael Koomler
 // Date: 11/9/2022
 //This code prints out diferent types of cookies
-public class CookieJar {
+public class cookieJar {
     static cookies cookie1;
     static cookies cookie2;
     static cookies cookie3;
@@ -32,6 +32,5 @@ final ArrayList listOfCookies = new ArrayList<>();
     System.out.println(listOfCookies);
     Collections.sort(listOfCookies);
     System.out.println(listOfCookies);
-
-    
 }
+    

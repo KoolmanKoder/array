@@ -4,7 +4,7 @@
 
 
 
-public class Objectscode {
+public class objectsCode {
   int x = 5;
   int i = 22;
   int r = 345;
