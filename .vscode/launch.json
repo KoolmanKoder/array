@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch card",
+            "request": "launch",
+            "mainClass": "card",
+            "projectName": "array_ac6bc862"
+        },
+        {
+            "type": "java",
+            "name": "Launch cardWar",
+            "request": "launch",
+            "mainClass": "cardWar",
+            "projectName": "array_ac6bc862"
+        },
+        {
+            "type": "java",
             "name": "Launch Card",
             "request": "launch",
             "mainClass": "Card",

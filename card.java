@@ -1,24 +1,28 @@
+//Simple horse class created by Kim Gross
+//for CTE Software Development class 2022
+
 public class card {
-    String card;
+    String name;
     int number;
-    String type;
     String[] names = new String[10]; 
-    int numberofNames=0;
-    String[] typs = new String[10]; 
-    public card(String cardName, int number){ 
-        String card;
-        card = cards; 
-        number = 1; 
+    int numberofNames=0; 
+    public void cards(String cardsName, int number, String type, int cardsNumber){
+        name=cardsName; 
+        number = cardsNumber;
     }
     
     public void number(){
         
     } 
-    public void changecard(String newCard){
-        names[numberofNames]=card;
+    public void changeName(String newName){
+        names[numberofNames]=name;
         numberofNames++;
-        card=newCard;
+        name=newName;
     }
     public String toString(){
-        return card + number + type ;
-    }}
+        return name + number;
+    }
+
+
+    
+}
